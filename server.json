@@ -10,11 +10,11 @@
     },
     {
       "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
       "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "name": "Veggie",
+      "price": "21.99",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia."
     },
     {
       "id": 3,
@@ -23,6 +23,38 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "name": "Camarão com vegetais",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "description": "Deleicioso camarão com vegetais e massa",
+      "price": "25.00",
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "Prato vegetariano",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "description": "Deleciosa opção vegetariana",
+      "price": "18.99",
+      "available": true,
+      "id": 5
+    },
+    {
+      "name": "Prato vegetariano família",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "description": "Prato vegetariano família tamanho família para a fome de um urso vegetariano",
+      "price": "30.00",
+      "available": true,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Massa ao molho branco",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "description": "Massa ao molho branco folhada a ouro",
+      "price": "89.00",
+      "available": true
     }
   ]
 }
