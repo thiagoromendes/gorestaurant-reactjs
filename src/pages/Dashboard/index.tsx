@@ -44,14 +44,18 @@ const Dashboard: React.FC = () => {
     try {
       // TODO ADD A NEW FOOD PLATE TO THE API
       const { name, image, description, price } = food;
-      const ids = foods.map(item => item.id);
-      const id = Math.max(...ids) + 1;
+      let id = 1;
+      if (foods.length > 0) {
+        const ids = foods.map(item => item.id);
+        id = Math.max(...ids) + 1;
+      }
+
       const addFood = {
-        id,
-        name,
         image,
-        description,
+        name,
         price,
+        description,
+        id,
         available: true,
       };
       api.post('/foods', addFood);
