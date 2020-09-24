@@ -12,17 +12,17 @@
       "id": 2,
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "Veggie",
-      "price": "21.99",
+      "name": "Veggie....",
+      "price": "21.90",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia."
     },
     {
       "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
       "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "A la Camarón",
+      "price": "25.99",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares."
     },
     {
       "name": "Camarão com vegetais",
@@ -33,28 +33,12 @@
       "id": 4
     },
     {
+      "id": 5,
+      "available": true,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
       "name": "Prato vegetariano",
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "description": "Deleciosa opção vegetariana",
-      "price": "18.99",
-      "available": true,
-      "id": 5
-    },
-    {
-      "name": "Prato vegetariano família",
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "description": "Prato vegetariano família tamanho família para a fome de um urso vegetariano",
-      "price": "30.00",
-      "available": true,
-      "id": 6
-    },
-    {
-      "id": 7,
-      "name": "Massa ao molho branco",
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "description": "Massa ao molho branco folhada a ouro",
-      "price": "89.00",
-      "available": true
+      "price": "18.999999",
+      "description": "Deleciosa opção vegetariana"
     }
   ]
 }

@@ -79,16 +79,27 @@ const Dashboard: React.FC = () => {
     };
     console.log(editFood);
     api.put(`/foods/${id}`, editFood);
-    // const updateFoods = foods.map(item => {
-    //  if (item.id === editFood.id) {
-    //    return (item.description = editFood.description);
-    //  }
-    // });
-    // setFoods(updateFoods);
+    const updateFoods = foods.map<IFoodPlate>(item => {
+      if (item.id === editFood.id) {
+        return {
+          id: item.id,
+          available: item.available,
+          description: editFood.description,
+          image: editFood.image,
+          name: editFood.name,
+          price: editFood.price,
+        };
+      }
+      return item;
+    });
+    setFoods(updateFoods);
   }
 
   async function handleDeleteFood(id: number): Promise<void> {
     // TODO DELETE A FOOD PLATE FROM THE API
+    await api.delete(`/foods/${id}`);
+    const availableFoods = foods.filter<IFoodPlate>(item => item.id !== id);
+    setFoods(availableFoods);
   }
 
   function toggleModal(): void {
